@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corrida de 5 km</title>
+    <style>
+        body {
+            background-image: url('imagem/fundo4.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        p { 
+            text-align: justify; 
+            text-indent: 50px; 
+        }
+        h1 { 
+            text-align: center; 
+            color: #dddddd; 
+        }
+
+        h2 { 
+            text-align: right; 
+            color: #12ca12; 
+        }
+         .fig {
+            position: relative; /* 1 */
+            display: inline-block; /* 2 */
+            border: 2px solid #12ca12; /* Borda verde */
+            margin: 20px; /* Espaçamento em volta da figura */
+            padding: 10px; /* Espaçamento interno da figura */
+            background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
+        
+        }
+        .fig:hover img { /* 1 */
+            box-shadow: 1px 1px 4px black; /* 2 */
+        }
+        fig figcaption {
+            opacity: 0; /* 1 */
+            position: absolute; /* 2 */
+            top: 0px; /* 3 */
+            left: 50%; /* 4 */
+            transform: translateX(-50%); /* 5 */
+            background-color: rgba(0, 0, 0, 0.4); /* 6 */
+            color: white; /* 7 */
+            width: 27%; /* 8 */
+            height: 100%; /* 9 */
+            padding: 10px; /* 10 */
+            box-sizing: border-box; /* 11 */
+            transition: opacity 1s; /* 12 */
+        }
+        .fig:hover figcaption { /* 1 */
+            opacity: 1; /* Torna a legenda visível ao passar o mouse */
+            transition: opacity 1s; /* 2 */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Corrida de 5 km</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Bem-vindo à Corrida de 5 km!</h2>
+            <p>É com grande prazer que anunciamos a Corrida de 5 km, um evento que reúne corredores de todos os níveis para celebrar a paixão pela corrida. Nossa corrida é projetada para ser inclusiva e motivadora, proporcionando uma experiência inesquecível para todos os participantes. Prepare-se para desafiar seus limites e alcançar novas metas em um ambiente de apoio e entusiasmo. Venha correr conosco e faça parte desta incrível jornada!</p>
+            <figure class="fig">
+                <img src="imagem/corrida.jpg" width="500" height="auto" alt="Imagem representativa da corrida 1">
+                <figcaption>
+                    <p>Corredores durante a Corrida de 5 km.</p>
+                </figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Sobre a Corrida</h2>
+            <p>A Corrida de 5 km é um evento emocionante e desafiador, ideal para corredores de todas as idades e níveis de habilidade. Este evento foi cuidadosamente planejado para oferecer uma experiência memorável, desde o início até a linha de chegada. Os participantes poderão desfrutar de um percurso cênico e bem marcado, garantindo segurança e diversão ao longo de todo o trajeto. Nosso objetivo é promover a saúde, o bem-estar e o espírito esportivo, incentivando todos a se superarem e a alcançarem novos patamares.</p>
+            <figure class="fig">
+                <img src="imagem/corrida2.jpg" width="500" height="auto" alt="Imagem representativa da corrida 2">
+                <figcaption>
+                    <p>Participantes se preparando para a corrida.</p>
+                </figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Inscrições</h2>
+            <p>As inscrições para a Corrida de 5 km estão abertas! Este é o momento perfeito para garantir sua participação em um dos eventos mais aguardados do ano. A inscrição é simples e rápida, e pode ser feita online através do nosso site. Não perca a oportunidade de fazer parte desta experiência incrível. Todos os participantes inscritos receberão um kit de corrida exclusivo, que inclui uma camiseta oficial do evento, um número de peito e outros brindes especiais. Venha correr conosco e celebre a alegria do esporte!</p>
+            <figure class="fig">
+                <img src="imagem/corrida3.jpg" width="500" height="auto" alt="Imagem de corredores">
+                <figcaption>
+                    <p>Corredores prontos para a corrida.</p>
+                </figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Participe!</h2>
+            <p>Não perca a chance de fazer parte da Corrida de 5 km! Este é o evento perfeito para você que busca uma nova aventura, quer melhorar seu condicionamento físico ou simplesmente deseja desfrutar de um dia repleto de energia positiva. Todos são bem-vindos, desde corredores experientes até aqueles que estão começando agora. Traga seus amigos e familiares para torcerem por você e tornarem este dia ainda mais especial. Prepare-se para cruzar a linha de chegada e sentir a satisfação de alcançar seus objetivos. Estamos ansiosos para vê-lo lá!</p>
+            <figure class="fig">
+                <img src="imagem/corrida4.jpg" width="500" height="auto" alt="Imagem de linha de chegada">
+                <figcaption>
+                    <p>A linha de chegada da Corrida de 5 km.</p>
+                </figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Corridas de 5 km. Todos os direitos reservados. 🏃‍♂️</p>
+        <p class="fim">&#x1f4f1; Desenvolvido por Regy &copy;</p>
+    </footer>
+</body>
+</html>
